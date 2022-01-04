@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 .name-color{
     color: orange;
@@ -37,6 +37,11 @@ h1{
     background-repeat: no-repeat;
     background-position:right;
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
 .experience-item{
     width: 40%;
     margin-left: 5%;
@@ -44,10 +49,19 @@ h1{
     padding-left: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px rebeccapurple;
-
 }
 .experience-heading{
     margin-left: 5%;
+}
+#frontend-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, white);
+    border-image-slice: 1;
+}
+#backend-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 footer p{
     text-align: center;
